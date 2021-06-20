@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+    <title>Home | Home</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/logo-latin.png" type="image/x-icon">
+
+    <!-- Font awesome -->
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">   
+    <!-- Slick slider -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css">    
+    <!-- Date Picker -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap-datepicker.css">   
+     <!-- Gallery Lightbox -->
+    <link href="assets/css/magnific-popup.css" rel="stylesheet"> 
+    <!-- Theme color -->
+    <link id="switcher" href="assets/css/theme-color/default-theme.css" rel="stylesheet">     
+
+    <!-- Main style sheet -->
+    <link href="style.css" rel="stylesheet">    
+
+   
+    <!-- Google Fonts -->
+
+    <!-- Prata for body  -->
+    <link href='https://fonts.googleapis.com/css?family=Prata' rel='stylesheet' type='text/css'>
+    <!-- Tangerine for small title -->
+    <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>   
+    <!-- Open Sans for title -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <!-- Ajax contact form  -->
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+  </head>
+  <body>
+
+
+  <!-- Start header section -->
+  <header id="mu-header">  
+    <nav class="navbar navbar-default mu-main-navbar" role="navigation">  
+      <div class="container">
+        <div class="navbar-header">
+          <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <!-- LOGO -->       
+
+           <!--  Text based logo  -->
+          <a class="navbar-brand" href="/"><img src="assets/img/logo-latin.png" class="img-fluid" alt=""></a> 
+
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <div id="hispano-nav">
+            <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+              <li><a href="/">INICIO</a></li>
+              <li><a href="#mu-about-us">SOBRE NOSOTROS</a></li>                        
+              <li><a href="#mu-reservation">RESERVACIÓN</a></li>                      
+              <li><a href="#mu-restaurant-menu">PLATOS</a></li>
+              <li><a href="#mu-chef">NUESTROS CHEFS</a></li> 
+              <li><a href="#mu-contact">CONTACTO</a></li> 
+              <li>
+                  <button style="background: #1761A7;" class="idioma" id="hispano-btn" type="button" onclick="ponerIdioma('hispano')" >ES</button>
+                  <button style="background: #CE6F5B;" class="idioma" id="english-btn" type="button" onclick="ponerIdioma('english')" >EN</button>
+              </li>
+            </ul>  
+          </div>
+          <div id="english-nav" style="display: none;">
+            <ul id="top-menu" class="nav navbar-nav navbar-right mu-main-nav">
+              <li><a href="/">HOME</a></li>
+              <li><a href="#mu-about-us">ABOUT US</a></li>                        
+              <li><a href="#mu-reservation">RESERVATION</a></li>                    
+              <li><a href="#mu-restaurant-menu">MENU</a></li>  
+              <li><a href="#mu-chef">OUR CHEFS</a></li> 
+              <li><a href="#mu-contact">CONTACT</a></li> 
+              <li>
+                  <button style="background: #1761A7;" class="idioma" id="hispano-btna" type="button" onclick="ponerIdioma('hispano')" >ES</button>
+                  <button style="background: #CE6F5B;" class="idioma" id="english-btna" type="button" onclick="ponerIdioma('english')" >EN</button>
+              </li>
+            </ul>   
+          </div>                        
+        </div><!--/.nav-collapse -->       
+      </div>          
+    </nav> 
+  </header>
+  <!-- End header section -->
+  <!-- Start slider  -->
+  <section id="mu-slider">
+    <div class="mu-slider-area"> 
+
+      <!-- Top slider -->
+      <div class="mu-top-slider" id="hispano-sl">
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/1.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">BIENVENIDO</span>
+            <h2 class="mu-slider-title">Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>           
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/2.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Lorem, ipsum. ESPAÑOL</span>
+            <h2 class="mu-slider-title">Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>           
+           <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/3.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Latin food ESPAÑOL</span>
+            <h2 class="mu-slider-title">Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>           
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->   
+
+      </div>
+      <!-- Top slider -->
+      <div class="mu-top-slider" id="english-sl" style="display: none;">
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/1.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Welcome</span>
+            <h2 class="mu-slider-title">Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>           
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->    
+
+         <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/2.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Lorem, ipsum.</span>
+            <h2 class="mu-slider-title">Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>           
+           <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide --> 
+
+        <!-- Top slider single slide -->
+        <div class="mu-top-slider-single">
+          <img src="assets/img/slider/3.jpeg" alt="img">
+          <!-- Top slider content -->
+          <div class="mu-top-slider-content">
+            <span class="mu-slider-small-title">Latin food</span>
+            <h2 class="mu-slider-title">Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque voluptatem accusamus non quidem, deleniti optio.</p>           
+            <a href="#mu-reservation" class="mu-readmore-btn mu-reservation-btn">BOOK A TABLE</a>
+          </div>
+          <!-- / Top slider content -->
+        </div>
+        <!-- / Top slider single slide -->   
+
+      </div>
+    </div>
+  </section>
+  <!-- End slider  -->
+
+    <div id="hispano" >
+      <-- Aquí el contenido en español -->
+      </div>
+      
+      <div id="english" style="display: none;">
+      <-- Aquí el contenido en inglés -->
+      </div>
+
+  <!-- Start About us -->
+  <section id="mu-about-us">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-about-us-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Discover</span>
+              <h2>ABOUT US</h2>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+               <div class="mu-about-us-left">     
+                <img src="assets/img/about-us.png" alt="img">           
+                </div>
+              </div>
+              <div class="col-md-6">
+                 <div class="mu-about-us-right">
+                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam minus aliquid, itaque illum assumenda repellendus dolorem, dolore numquam totam saepe, porro delectus, libero enim odio quo. Explicabo ex sapiente sit eligendi, facere voluptatum! Quia vero rerum sunt porro architecto corrupti eaque corporis eum, enim soluta, perferendis dignissimos, repellendus, beatae laboriosam.</p>                              
+                  <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>                    
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia.</li>
+                  </ul>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque similique molestias est quod reprehenderit, quibusdam nam qui, quam magnam.</p>  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End About us -->
+
+  <!-- Start Reservation section -->
+  <section id="mu-reservation">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-reservation-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Make A</span>
+              <h2>Reservation</h2>
+            </div>
+
+            <div class="mu-reservation-content">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quidem autem iusto, perspiciatis, amet, quaerat blanditiis ducimus eius recusandae nisi aut totam alias consectetur et.</p>
+
+              <div class="col-md-6">
+                <div class="mu-reservation-left">
+                  <form class="mu-reservation-form" id="reservation-form">
+                    <div class="row">
+                      <div class="col-md-12">
+                        <div class="form-group">                       
+                          <input id="r_name" type="text" name="r_name" class="form-control" placeholder="Full Name" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">                        
+                          <input id="r_email" type="email" name="r_email" class="form-control" placeholder="Email" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">                        
+                          <input id="r_phone" name="r_phone" type="text" class="form-control" placeholder="Phone Number" required>
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <select class="form-control" id="r_count" name="r_count" required>
+                            <option value="0">How Many?</option>
+                            <option value="1">1 Person</option>
+                            <option value="2">2 People</option>
+                            <option value="3">3 People</option>
+                            <option value="4">4 People</option>
+                            <option value="5">5 People</option>
+                            <option value="6">6 People</option>
+                            <option value="7">7 People</option>
+                            <option value="8">8 People</option>
+                            <option value="9">9 People</option>
+                            <option value="10">10 People</option>
+                          </select>                      
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" id="datepicker" name="datepicker" placeholder="Date" required>              
+                        </div>
+                      </div>
+                      <div class="col-md-12">
+                        <div class="form-group">
+                          <textarea class="form-control" id="r_message" name="r_message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                        </div>
+                      </div>
+                      <button type="submit" class="mu-readmore-btn">Make Reservation</button>
+                    </div>
+                  </form>    
+                </div>
+              </div>
+
+              <div class="col-md-5 col-md-offset-1">
+                <div class="mu-reservation-right">
+                  <div class="mu-opening-hour">
+                    <h2>Opening Hours</h2>
+                      <ul class="list-unstyled">
+                        <li>
+                            <p>Monday &amp; Tuesday</p>
+                            <p>9:00 AM - 4:00 PM</p>
+                        </li>
+                        <li>
+                            <p>Wednesday &amp; Thursday</p>
+                            <p>9:00 AM - Midnight</p>
+                        </li>
+                        <li>
+                            <p>Friday &amp; Saturday</p>
+                            <p>9:00 AM - Midnight</p>
+                        </li>
+                        <li>
+                            <p>Sunday</p>
+                            <p>9:00 AM - 11:00 PM</p>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>  
+  <!-- End Reservation section -->
+
+  <section id="mu-restaurant-menu">
+    <div id="fh5co-featured-menu" class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 fh5co-heading">
+            <div class="mu-title">
+              <h2>Today's Menu</h2>
+            </div>
+            <div class="row">
+              <div class="col-md-12 text-center">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ab debitis sit itaque totam, a maiores nihil, nulla magnam porro minima officiis! Doloribus aliquam voluptates corporis et tempora consequuntur ipsam, itaque, nesciunt similique commodi omnis. Ad magni perspiciatis, voluptatum repellat.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+            <div class="fh5co-item">
+              <img src="assets/img/menu/item-1.png" class="img-fluid" alt="">
+              <h3>Bake Potato Pizza</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+            <div class="fh5co-item margin_top">
+              <img src="assets/img/menu/item-1.png" class="img-fluid" alt="">
+              <h3>Salted Fried Chicken</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+            </div>
+          </div>
+          <div class="clearfix visible-sm-block visible-xs-block"></div>
+          <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+            <div class="fh5co-item">
+              <img src="assets/img/menu/item-1.png" class="img-fluid" alt="">
+              <h3>Italian Sauce Mushroom</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6 col-xs-6 col-xxs-12 fh5co-item-wrap">
+            <div class="fh5co-item margin_top">
+              <img src="assets/img/menu/item-1.png" class="img-fluid" alt="">
+              <h3>Fried Potato w/ Garlic</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos nihil cupiditate ut vero alias quaerat inventore molestias vel suscipit explicabo.</p>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>
+  
+  
+  <!-- Start Client Testimonial section -->
+  <section id="mu-client-testimonial">
+    <div class="mu-overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="mu-client-testimonial-area">
+
+              <div class="mu-title">
+                <span class="mu-subtitle">Testimonials</span>
+                <h2>What Customers Say</h2>
+              </div>
+
+              <!-- testimonial content -->
+              <div class="mu-testimonial-content">
+                <!-- testimonial slider -->
+                <ul class="mu-testimonial-slider">
+                  <li>
+                    <div class="mu-testimonial-single">                   
+                      <div class="mu-testimonial-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum nesciunt fuga ab natus, dolorem?</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>- David Muller</p>                      
+                      </div>
+                    </div>
+                  </li>
+                   <li>
+                    <div class="mu-testimonial-single">                   
+                      <div class="mu-testimonial-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum nesciunt fuga ab natus, dolorem?</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>- David Muller</p>                      
+                      </div>
+                    </div>
+                  </li>
+                   <li>
+                    <div class="mu-testimonial-single">                   
+                      <div class="mu-testimonial-info">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate consequuntur ducimus cumque iure modi nesciunt recusandae eligendi vitae voluptatibus, voluptatum tempore, ipsum nisi perspiciatis. Rerum nesciunt fuga ab natus, dolorem?</p>
+                      </div>
+                      <div class="mu-testimonial-bio">
+                        <p>- David Muller</p>                      
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Client Testimonial section -->
+  
+  <!-- Start Chef Section -->
+  <section id="mu-chef">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-chef-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Our Professionals</span>
+              <h2>MASTER CHEFS</h2>
+            </div>
+
+            <div class="mu-chef-content">
+              <ul class="mu-chef-nav">
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-1.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Simon Jonson</h4>
+                      <span>Head Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-2.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Kelly Wenzel</h4>
+                      <span>Pizza Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-3.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Greg Hong</h4>
+                      <span>Grill Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-4.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Marty Fukuda</h4>
+                      <span>Burger Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>  
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-5.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Simon Jonson</h4>
+                      <span>Head Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-1.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Kelly Wenzel</h4>
+                      <span>Pizza Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-2.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Greg Hong</h4>
+                      <span>Grill Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>
+                
+                <li>
+                  <div class="mu-single-chef">
+                    <figure class="mu-single-chef-img">
+                      <img src="assets/img/chef/chef-3.jpg" alt="chef img">
+                    </figure>
+                    <div class="mu-single-chef-info">
+                      <h4>Marty Fukuda</h4>
+                      <span>Burger Chef</span>
+                    </div>
+                    <div class="mu-single-chef-social">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-google-plus"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                    </div>
+                  </div>
+                </li>                      
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Chef Section -->
+
+ 
+
+  <!-- Start Contact section -->
+  <section id="mu-contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-contact-area">
+
+            <div class="mu-title">
+              <span class="mu-subtitle">Get In Touch</span>
+              <h2>Contact Us</h2>
+            </div>
+
+            <div class="mu-contact-content">
+              <div class="row">
+
+                <div class="col-md-6">
+                  <div class="mu-contact-left">
+                    <!-- Email message div -->
+                    <div id="form-messages"></div>
+                    <!-- Start contact form -->
+                    <form id="ajax-contact"  class="mu-contact-form">
+                      <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="email">Email address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+                      </div>                      
+                      <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="message">Message</label>                        
+                        <textarea class="form-control" id="message" name="message"  cols="30" rows="10" placeholder="Type Your Message" required></textarea>
+                      </div>                      
+                      <button type="submit" class="mu-send-btn">Send Message</button>
+                    </form>
+                  </div>
+                </div>
+
+                <div class="col-md-6">
+                  <div class="mu-contact-right">
+                    <div class="mu-contact-widget">
+                      <h3>Office Address</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia temporibus corporis ea non consequatur porro corrupti hic voluptatibus assumenda, doloribus.</p>
+                      <address>
+                        <p><i class="fa fa-phone"></i> (850) 457 6688</p>
+                        <p><i class="fa fa-envelope-o"></i>contact@markups.io</p>
+                        <p><i class="fa fa-map-marker"></i>368 St. Panama City, Florida, USA</p>
+                      </address>
+                    </div>
+                    <div class="mu-contact-widget">
+                      <h3>Open Hours</h3>                      
+                      <address>
+                        <p><span>Monday - Friday</span> 9.00 am to 12 pm</p>
+                        <p><span>Saturday</span> 9.00 am to 10 pm</p>
+                        <p><span>Sunday</span> 10.00 am to 12 pm</p>
+                      </address>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact section -->
+
+  <!-- Start Map section -->
+  <section id="mu-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9207.358598888495!2d-85.64847801496286!3d30.183918972289003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0x2320479d70eb6202!2sDillard&#39;s!5e0!3m2!1sbn!2sbd!4v1462359735720" width="100%" height="100%" frameborder="0"allowfullscreen></iframe>
+  </section>
+  <!-- End Map section -->
+
+<!--   <textarea id="text">write text here...</textarea>
+<input type="button" value="Send Email" onclick="sendEmail()"> -->
+  <!-- Start Footer -->
+  <footer id="mu-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+        <div class="mu-footer-area">
+           <div class="mu-footer-social">
+            <a href="#"><span class="fa fa-facebook"></span></a>
+            <a href="#"><span class="fa fa-twitter"></span></a>
+            <a href="#"><span class="fa fa-google-plus"></span></a>
+            <a href="#"><span class="fa fa-linkedin"></span></a>
+            <a href="#"><span class="fa fa-youtube"></span></a>
+          </div>
+          <div class="mu-footer-copyright">
+            <p>&copy; Copyright <a rel="nofollow" href="http://markups.io">henrydev.io</a>. All right reserved.</p>
+          </div>         
+        </div>
+      </div>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+  <!-- <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'es', includedLanguages: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, gaTrack: true}, 'google_translate_element');
+            }
+    </script> -->
+    <script type="text/javascript" >
+      var idioma = "hispano";
+      function ponerIdioma(cual)	{
+        document.getElementById(idioma).style.display = "none";
+        document.getElementById(idioma+'-nav').style.display = "none";
+        document.getElementById(idioma+'-sl').style.display = "none";
+        document.getElementById(idioma+'-btn').style.background = "#CE6F5B";
+        document.getElementById(idioma+'-btna').style.background = "#CE6F5B";
+        idioma = cual;
+        document.getElementById(idioma).style.display = "block";
+        document.getElementById(idioma+'-nav').style.display = "block";
+        document.getElementById(idioma+'-sl').style.display = "block";
+        document.getElementById(idioma+'-btn').style.background = "#1761A7";
+        document.getElementById(idioma+'-btna').style.background = "#1761A7";
+      }
+      </script>
+      <!-- <script src="https://smtpjs.com/v3/smtp.js">
+      </script>
+      <script type="text/javascript" >
+        function sendMail()	{
+          Email.send({
+            Host : "smtp.gmail.com",
+            Username : "username",
+            Password : "password",
+            To : 'them@website.com',
+            From : "henrydavidyamunaque@gmail.com",
+            Subject : "This is the subject",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+        );
+        }
+        </script> -->
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+<!-- <script type="text/javascript">
+    function sendEmail() {
+        Email.send({
+          Host : "smtp.yourisp.com",
+            To: "someone@gmail.com",
+            From: "henrydavidyamunaque@gmail.com",
+            Subject: "Subject...",
+            Body: document.getElementById('text').value
+        }).then( 
+            message => alert("mail sent successfully")
+        );
+    }
+</script> -->
+    
+  <!-- <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+  
+  <!-- jQuery library -->
+  <script src="assets/js/jquery.min.js"></script>  
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="assets/js/bootstrap.js"></script>   
+  <!-- Slick slider -->
+  <script type="text/javascript" src="assets/js/slick.js"></script>
+  <!-- Counter -->
+  <script type="text/javascript" src="assets/js/simple-animated-counter.js"></script>
+  <!-- Gallery Lightbox -->
+  <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- Date Picker -->
+  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
+ 
+  <!-- Custom js -->
+  <script src="assets/js/custom.js"></script> 
+
+  </body>
+</html>
